@@ -1,0 +1,17 @@
+div.content .person                 { width:33.33333%;  font-size: 60%; line-height: 1.4em; color: #ddd; }
+div.content .person-content         { margin: 20px 0;  min-height: 300px; background: #333; padding: 10px; }
+div.content .person img             { max-height: 70px; width: auto; float: left; margin-right: 16px;  }
+div.content .person .name           { float: left; }
+div.content .person .description    { clear: both; padding-top: 10px; font-size: 90%; }
+div.content .person h2              { color : #ddd; padding: 12px 0 3px 0;  }
+div.content .person h3              { color : #bbb; font-size: 80%; }
+div.content .person a               { color: #ccc; }
+
+@media screen and (max-width: 680px) {
+
+    div.content .person                 { width:100%;}
+    div.content .person-content         { min-height: 0;  }
+    div.content .person .name           { float: none; display: block; clear: both; }
+    
+    
+}

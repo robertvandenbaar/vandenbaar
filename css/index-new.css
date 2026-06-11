@@ -1,0 +1,47 @@
+div.content .generation             { overflow: hidden; background-repeat: repeat-y; background-position: 0 0; background-image: url("/svg/generation-separator.svg"); width: 100%; position: relative; min-height: 550px; font-size: 60%; line-height: 1.4em; color: #ddd; padding-bottom: 20px; }
+div.content .generation-content     { z-index: 10; position: absolute; left: 280px; top: 0; max-width: 600px; }
+div.content .generation img.main    { z-index: 10; position: absolute; left: 0; top: 0; width: 256px; height: auto; }
+div.content .generation .images     { z-index: 10; position: absolute; left: 280px; bottom: 162px; }
+div.content .generation img.self,    
+div.content .generation img.wife,    
+div.content .generation img.other    { width: auto; height: 230px; }
+div.content .generation h2           { color: #eee; padding-top: 0; }
+div.content .generation p            { padding-top: 4px; }
+div.content .generation .generation-year { font-family: cursive; height: 550px; overflow: hidden; position: absolute; z-index: 9; transform: rotate(-45deg); font-size: 300px;  color: #eee; opacity: 0.1; right: 0; top: 0; line-height: 400px; }
+div.content h2.familielijn           { color: #ccc; }
+
+div.content .generation span.dob    { display: inline-block; font-family: cursive; padding-right: 4px; }
+div.content .generation span.dod    { display: inline-block; font-family: cursive;  }
+div.content .generation span.dod span   { padding-right: 4px;  }
+
+#jongste                                { padding: 20px 0; color: #ccc; font-size: 0.8em; }
+
+footer img                              {vertical-align: middle;}
+
+div.content .generation.last    { background-image: none; }
+
+@media screen and (max-width: 1230px) {
+
+    div.content .generation             { min-height: 700px; margin-bottom: 62px; }
+    div.content .generation-content     { margin-left: 0; margin: 10px 0 20px;  }
+    div.content .generation img.main    { width: 100%; height: auto; }
+    div.content .generation .images     { margin-top: 10px; position: relative; bottom: auto; right: auto; }
+    div.content .generation .images img    { width: 100%;  }
+    div.content .generation img.wife,    
+    div.content .generation img.other    { width: 100%; height: auto; }
+    
+    
+    div.content .generation-content     { position: relative; left: auto; top: auto;  }
+    div.content .generation img.main    { position: relative; left: auto; top: auto; }
+    div.content .generation .images     { position: relative; left: auto; top: auto; }
+    div.content .generation             { background: none; }
+
+    /*
+    div.content .generation.compact img.main    { position: absolute; top: 0; width: 50px; height: auto; }
+    div.content .generation.compact .generation-content { position: absolute; left: 80px; top: 0;}
+    
+    div.content .generation .generation-year { font-size: 100px; top: -30px; line-height: 80px;}
+    */
+    
+    
+}
