@@ -21,14 +21,6 @@ header p.tagline strong			{ font-weight: 600; }
 header .social					{ width: auto; float: right;  }
 header .social a				{ opacity: 0.75; display: inline-block; padding: 0; margin: 0; width: 32px; height: 32px; background-size: 32px 32px; }
 
-header .social a:hover			{ opacity: 1; }
-header .facebook 				{ background: url('//www.vandenbaar.nl/images/icons/facebook.png') no-repeat; }
-header .flickr 					{ background: url('//www.vandenbaar.nl/images/icons/flickr.png') no-repeat; }
-header .linkedin 				{ background: url('//www.vandenbaar.nl/images/icons/linkedin.png') no-repeat; }
-header .twitter 				{ background: url('//www.vandenbaar.nl/images/icons/twitter.png') no-repeat; }
-header .instagram				{ background: url('//www.vandenbaar.nl/images/icons/instagram.png') no-repeat; }
-header .email 					{ background: url('//www.vandenbaar.nl/images/icons/email.png') no-repeat; }
-
 figure							{ margin: 0; padding: 0; display: block;}
 figure.photo					{ padding-top: 4%; }
 figure.inline-left				{ width: 50%; padding-right: 2%; padding-top: 9px; float: left; }
@@ -75,15 +67,6 @@ p.buy							{ clear: both; width: 80%; font-size: 0.8em; margin: 0 auto !importa
 div.large-image					{ width: 100%;}
 div.large-image img				{ max-width: 100%; }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2) 
-{
-	header .facebook 				{ background: url('//www.vandenbaar.nl/images/icons/facebook-64.png') no-repeat; }
-	header .flickr 					{ background: url('//www.vandenbaar.nl/images/icons/flickr-64.png') no-repeat; }
-	header .linkedin 				{ background: url('//www.vandenbaar.nl/images/icons/linkedin-64.png') no-repeat; }
-	header .twitter 				{ background: url('//www.vandenbaar.nl/images/icons/twitter-64.png') no-repeat; }
-	header .instagram 				{ background: url('//www.vandenbaar.nl/images/icons/instagram-64.png') no-repeat; }
-    header .email 					{ background: url('//www.vandenbaar.nl/images/icons/email-64.png') no-repeat; }
-}
 
 @media screen and (min-width: 1100px) {
 	figure.photo					{ float: left; width: 48%; }
